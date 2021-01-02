@@ -1,7 +1,8 @@
 package main
 
-import "service-app-users-api/services"
+import "github.com/abasile22/service-app-api/services"
 
-func main(){
+func main() {
 	services.App()
 }
+
