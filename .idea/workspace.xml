@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385a218f-c2b0-40f1-9be5-b005b3731242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/create_new_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/update_user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/ping.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/url_mapping.go" beforeDir="false" afterPath="$PROJECT_DIR$/services/url_mapping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/services/ping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/url_mapping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/services/url_mapping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/create_new_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/users/create_new_user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/update_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/users/update_user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

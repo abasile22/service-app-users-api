@@ -1,11 +1,11 @@
 package services
 
 import (
-	"github.com/abasile22/service-app-api/users"
+	"github.com/abasile22/service-app-api/src/api/users"
 	"github.com/gin-gonic/gin"
 )
 
-func App() {
+func Start() {
 	router := gin.Default()
 	router.GET("/ping", Ping)
 
