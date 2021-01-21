@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385a218f-c2b0-40f1-9be5-b005b3731242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/services/firestore.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/driver/mysql_driver.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/services/firestore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/users/create_new_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/users/create_new_user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -47,16 +50,26 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/api/driver" />
       <recent name="$PROJECT_DIR$/src/api" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/abasile22/service-app-api">
+  <component name="RunManager" selected="Go Build.go build github.com/abasile22/service-app-api/src/api">
     <configuration name="go build github.com/abasile22/service-app-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="service-app-users-api" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <package value="github.com/abasile22/service-app-api" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/abasile22/service-app-api/src/api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="service-app-users-api" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/api/main.go" />
+      <package value="github.com/abasile22/service-app-api/src/api" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -71,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/abasile22/service-app-api/src/api" />
         <item itemvalue="Go Build.go build github.com/abasile22/service-app-api" />
         <item itemvalue="Go Build.go build service-app-users-api" />
       </list>
