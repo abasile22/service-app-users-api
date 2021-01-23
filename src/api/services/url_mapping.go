@@ -3,6 +3,9 @@ package services
 import (
 	"github.com/abasile22/service-app-api/src/api/users"
 	"github.com/gin-gonic/gin"
+	"log"
+	"net/http"
+	"os"
 )
 
 func Start() {
@@ -17,5 +20,6 @@ func Start() {
 
 	// router.Run(":3000") for a hard coded port
 
-	router.Run(":8080")
+	port := ":" + os.Getenv("PORT")
+	log.Fatal(http.ListenAndServe(port, router))
 }
