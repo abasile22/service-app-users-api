@@ -1,7 +1,7 @@
-package services
+package app
 
 import (
-	"github.com/abasile22/service-app-api/src/app/users"
+	"github.com/abasile22/service-app-api/src/api/controllers"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
@@ -10,12 +10,12 @@ import (
 
 func Start() {
 	router := gin.Default()
-	router.GET("/ping", Ping)
+	router.GET("/ping", controllers.Ping)
 
-	router.POST("/user/new-user", users.CreateNewUser)
-	router.POST("/user/update-user/:id", users.UpdateUser)
-	router.GET("/user/get-user/:id", users.GetUser)
-	router.POST("/user/log-in", users.LogInUser)
+	router.POST("/user/new-user", controllers.CreateNewUser)
+	router.POST("/user/update-user/:id", controllers.UpdateUser)
+	router.GET("/user/get-user/:id", controllers.GetUser)
+	router.POST("/user/log-in", controllers.LogInUser)
 
 	// By default it serves on :8080 unless a
 	// PORT environment variable was defined.

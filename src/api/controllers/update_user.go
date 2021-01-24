@@ -1,7 +1,7 @@
-package users
+package controllers
 
 import (
-	"github.com/abasile22/service-app-api/src/app/payload"
+	"github.com/abasile22/service-app-api/src/api/payload"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

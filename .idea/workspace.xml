@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385a218f-c2b0-40f1-9be5-b005b3731242" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/payload/payload.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/get_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/users/log_in_user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/utils/hash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/443598a3-0140-4202-9dbd-41d7d5730fd0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/443598a3-0140-4202-9dbd-41d7d5730fd0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/driver/mysql_driver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/driver/mysql_driver.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/services/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/ping.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/services/url_mapping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/url_mapping.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/users/create_new_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/create_new_user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/users/update_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/users/update_user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/driver/mysql_driver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/dao/dao_mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/payload/payload.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/payload/payload.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/ping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/ping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/url_mapping.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/app/url_mapping.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/create_new_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/create_new_user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/get_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/get_user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/log_in_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/log_in_user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/users/update_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/update_user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/utils/hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/utils/hash.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +56,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/api/controllers" />
+      <recent name="$PROJECT_DIR$/src/api/app" />
+      <recent name="$PROJECT_DIR$/src/api/dao" />
       <recent name="$PROJECT_DIR$/src/app/payload" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/api/driver" />
-      <recent name="$PROJECT_DIR$/src/api" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/abasile22/service-app-api/src/app">
@@ -134,12 +132,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/app/users/log_in_user.go</url>
+          <url>file://$PROJECT_DIR$/src/api/controllers/log_in_user.go</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/app/utils/hash.go</url>
+          <url>file://$PROJECT_DIR$/src/api/utils/hash.go</url>
           <line>17</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

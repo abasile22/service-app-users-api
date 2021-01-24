@@ -1,9 +1,9 @@
-package users
+package controllers
 
 import (
-	"github.com/abasile22/service-app-api/src/app/driver"
-	"github.com/abasile22/service-app-api/src/app/payload"
-	"github.com/abasile22/service-app-api/src/app/utils"
+	"github.com/abasile22/service-app-api/src/api/dao"
+	"github.com/abasile22/service-app-api/src/api/payload"
+	"github.com/abasile22/service-app-api/src/api/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -19,7 +19,7 @@ func CreateNewUser(c *gin.Context) {
 	if err != nil {
 		c.String(http.StatusBadRequest, "Bad Request")
 	} else {
-		driver.StartMySQL(login.User, hash)
+		dao.StartMySQL(login.User, hash)
 		c.JSON(200, gin.H{"status": login.User})
 	}
 

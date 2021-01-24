@@ -1,10 +1,10 @@
-package users
+package controllers
 
 import (
 	"database/sql"
 	"fmt"
-	"github.com/abasile22/service-app-api/src/app/payload"
-	"github.com/abasile22/service-app-api/src/app/utils"
+	"github.com/abasile22/service-app-api/src/api/payload"
+	"github.com/abasile22/service-app-api/src/api/utils"
 	"github.com/gin-gonic/gin"
 )
 

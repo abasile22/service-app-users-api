@@ -1,4 +1,4 @@
-package driver
+package dao
 
 import (
 	"database/sql"
@@ -7,7 +7,8 @@ import (
 
 func StartMySQL(user, pass string) {
 
-	db, err := sql.Open("mysql", "root@tcp(127.0.0.1:3306)/services_app_users")
+	db, err := sql.Open("mysql", "b06e9ae78a9434:f650ac03@@us-cdbr-east-03.cleardb.com/heroku_854bd42de5b62e1?reconnect=true")
+
 	if err != nil {
 		panic(err)
 	}
