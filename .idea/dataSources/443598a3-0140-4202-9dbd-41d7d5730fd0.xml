@@ -1057,12 +1057,12 @@
     <table id="337" parent="7" name="users"/>
     <column id="338" parent="337" name="user">
       <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="339" parent="337" name="id">
+    <column id="339" parent="337" name="password">
       <Position>2</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
     </column>
   </database-model>

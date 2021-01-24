@@ -1,12 +1,13 @@
 package users
 
 import (
+	"github.com/abasile22/service-app-api/src/app/payload"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
 
 func UpdateUser(c *gin.Context) {
-	var login Login
+	var login payload.Login
 
 	err := c.BindJSON(&login)
 
