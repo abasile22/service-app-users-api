@@ -3,8 +3,8 @@ package controllers
 import (
 	"database/sql"
 	"fmt"
-	"github.com/abasile22/service-app-api/src/api/payload"
-	"github.com/abasile22/service-app-api/src/api/utils"
+	"github.com/abasile22/trp-user-role-auth/src/api/payload"
+	"github.com/abasile22/trp-user-role-auth/src/api/utils"
 	"github.com/gin-gonic/gin"
 )
 

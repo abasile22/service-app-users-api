@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/service-app-users-api.iml" filepath="$PROJECT_DIR$/.idea/service-app-users-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/trp-user-role-auth.iml" filepath="$PROJECT_DIR$/.idea/trp-user-role-auth.iml" />
     </modules>
   </component>
 </project>

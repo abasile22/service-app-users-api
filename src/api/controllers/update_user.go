@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/abasile22/service-app-api/src/api/payload"
+	"github.com/abasile22/trp-user-role-auth/src/api/payload"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
